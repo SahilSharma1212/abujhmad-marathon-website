@@ -7,8 +7,8 @@ import Media from "./_components/media";
 import Track from "./_components/track";
 import Mission from "./_components/mission";
 import HeroSection from "./_components/hero-section";
-import { InstagramFeed } from "./_components/instagram-feed";
 import { ReachNarayanpur } from "./_components/reach-narayanpur";
+import { NewInstagramFeed } from "./_components/new-instagram-feed";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -24,10 +24,10 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <HeroSection />
+      <HeroSection/>
 
       <motion.div {...fadeInUp}>
-        <InstagramFeed />
+        <NewInstagramFeed />
       </motion.div>
 
       <motion.div
